@@ -79,7 +79,29 @@ Certifique-se de que o ambiente de desenvolvimento possui os seguintes component
 
 ## Final (Melhorias)
 
-1. Descrever
+** 1. Trocar Lazy Loading por Includes estratégicos **
+
+Carregar só os dados necessários em cada endpoint, melhorando performance.
+
+** 2. Padronizar todos os métodos como async **
+
+Tornar a API mais escalável com processamento não-bloqueante.
+
+** 3. Adicionar Redis para cache de consultas **
+
+Reduzir a carga no banco para dados acessados com frequência.
+
+** 4. Implementar validação nos DTOs **
+
+Garantir dados corretos antes de processar, evitando erros.
+
+** 5. Criar um sistema simples de Health Check **
+
+Monitorar se o banco e serviços externos estão respondendo.
+
+** 6. Colocaria a tabela de Historico da Tarefa em um DB NoSql **
+
+Bancos NoSql são mais adequados para armazenar Logs e Dados históricos.
 
 ---
 
