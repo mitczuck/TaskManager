@@ -1,0 +1,8 @@
+======================================================================
+= TODO API Task Manager:
+======================================================================
+
+- Ajustar Relação entre Task e Usuário Responsável para que o mesmo usuário possa assumir mais de uma Task dentro do mesmo projeto;
+- Melhorar utilização dos Enuns nas estruturas das entidades;
+- Melhorar o mapping dos DTO's;
+- Limpar resquícios GOLLOG;

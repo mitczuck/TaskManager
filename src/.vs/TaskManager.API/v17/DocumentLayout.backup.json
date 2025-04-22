@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GOLLOG\\TaskManagerApi\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\gollog\\taskmanagerapi\\src\\taskmanager.infrastructure\\migrations\\20250422053022_updateuserposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\migrations\\20250422053022_updateuserposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\gollog\\taskmanagerapi\\src\\taskmanager.infrastructure\\migrations\\20250421220416_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\migrations\\20250421220416_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|c:\\gollog\\taskmanagerapi\\src\\taskmanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|solutionrelative:taskmanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|c:\\gollog\\taskmanagerapi\\src\\taskmanager.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|solutionrelative:taskmanager.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|c:\\gollog\\taskmanagerapi\\src\\taskmanager.domain\\enums\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|solutionrelative:taskmanager.domain\\enums\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250421220416_CreateDb.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Infrastructure\\Migrations\\20250421220416_CreateDb.cs",
+              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Migrations\\20250421220416_CreateDb.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Infrastructure\\Migrations\\20250421220416_CreateDb.cs",
+              "RelativeToolTip": "TaskManager.Infrastructure\\Migrations\\20250421220416_CreateDb.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAQwKwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:32:49.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250422053022_UpdateUserPosition.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "RelativeToolTip": "TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwC4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:32:42.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Entities\\Task.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Entities\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:29:27.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:28:48.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Domain\\Enums\\Position.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Enums\\Position.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManagerApi\\src\\TaskManager.Domain\\Enums\\Position.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Enums\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T05:24:17.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
