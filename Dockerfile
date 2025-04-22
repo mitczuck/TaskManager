@@ -38,6 +38,7 @@ ENV URLS=http://+:4000
 ENV TZ=America/Sao_Paulo
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 ENV ASPNETCORE_ENVIRONMENT=Development
+ENV ConnectionStrings__DefaultConnection=Server=host.docker.internal,1433;Database=TaskManagerDB;Trusted_Connection=False;User=sa;Password=Donothackme123!;TrustServerCertificate=True
 
 
 # Define the required exposed ports

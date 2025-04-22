@@ -23,7 +23,7 @@ namespace TaskManager.Infrastructure.Context
         {
             optionsBuilder
                 .UseLazyLoadingProxies()
-                .UseSqlServer(@"Server=localhost;Database=TaskManagerDB;Trusted_Connection=False;User=sa;Password=Donothackme123!;TrustServerCertificate=True")
+                .UseSqlServer(Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection"))
                 .ConfigureWarnings(warnings => warnings
                 .Ignore(RelationalEventId.PendingModelChangesWarning));
         }
