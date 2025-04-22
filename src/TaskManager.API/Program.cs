@@ -7,7 +7,7 @@ using TaskManager.Infrastructure.Interfaces;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://+:5001");
+builder.WebHost.UseUrls("http://+:4000");
 
 // Registrar o AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));

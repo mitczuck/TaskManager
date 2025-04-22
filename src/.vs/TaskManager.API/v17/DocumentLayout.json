@@ -3,52 +3,8 @@
   "WorkspaceRootPath": "C:\\GOLLOG\\TaskManager\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED55EC9B-9C35-4991-851B-76B5FBC72460}|TaskManager.API.Tests\\TaskManager.API.Tests.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api.tests\\calculateservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED55EC9B-9C35-4991-851B-76B5FBC72460}|TaskManager.API.Tests\\TaskManager.API.Tests.csproj|solutionrelative:taskmanager.api.tests\\calculateservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED55EC9B-9C35-4991-851B-76B5FBC72460}|TaskManager.API.Tests\\TaskManager.API.Tests.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED55EC9B-9C35-4991-851B-76B5FBC72460}|TaskManager.API.Tests\\TaskManager.API.Tests.csproj|solutionrelative:taskmanager.api.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01614294-77E1-4BF8-BBCC-492254DF452C}|TaskManager.Application\\TaskManager.Application.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.application\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01614294-77E1-4BF8-BBCC-492254DF452C}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01614294-77E1-4BF8-BBCC-492254DF452C}|TaskManager.Application\\TaskManager.Application.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.application\\implementations\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01614294-77E1-4BF8-BBCC-492254DF452C}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\implementations\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.domain\\dto\\report\\completedtasksperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|solutionrelative:taskmanager.domain\\dto\\report\\completedtasksperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.domain\\dto\\response\\reportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Core.csproj|solutionrelative:taskmanager.domain\\dto\\response\\reportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01614294-77E1-4BF8-BBCC-492254DF452C}|TaskManager.Application\\TaskManager.Application.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.application\\implementations\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01614294-77E1-4BF8-BBCC-492254DF452C}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\implementations\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.infrastructure\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API.Tests\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "TaskManager.API.Tests\\GlobalUsings.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API.Tests\\GlobalUsings.cs",
-              "RelativeToolTip": "TaskManager.API.Tests\\GlobalUsings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:06:40.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectController.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Controllers\\ProjectController.cs",
-              "RelativeDocumentMoniker": "TaskManager.API\\Controllers\\ProjectController.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Controllers\\ProjectController.cs",
-              "RelativeToolTip": "TaskManager.API\\Controllers\\ProjectController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwD0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T13:42:31.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Program.cs",
-              "RelativeDocumentMoniker": "TaskManager.API\\Program.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Program.cs",
-              "RelativeToolTip": "TaskManager.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T13:33:38.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CalculateServiceTests.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API.Tests\\CalculateServiceTests.cs",
-              "RelativeDocumentMoniker": "TaskManager.API.Tests\\CalculateServiceTests.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API.Tests\\CalculateServiceTests.cs",
-              "RelativeToolTip": "TaskManager.API.Tests\\CalculateServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T13:28:33.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Application\\Implementations\\TaskService.cs",
-              "RelativeDocumentMoniker": "TaskManager.Application\\Implementations\\TaskService.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Application\\Implementations\\TaskService.cs",
-              "RelativeToolTip": "TaskManager.Application\\Implementations\\TaskService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T13:18:00.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CompletedTasksPerUser.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\DTO\\Report\\CompletedTasksPerUser.cs",
-              "RelativeDocumentMoniker": "TaskManager.Domain\\DTO\\Report\\CompletedTasksPerUser.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\DTO\\Report\\CompletedTasksPerUser.cs",
-              "RelativeToolTip": "TaskManager.Domain\\DTO\\Report\\CompletedTasksPerUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:24:45.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReportResponse.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\DTO\\Response\\ReportResponse.cs",
-              "RelativeDocumentMoniker": "TaskManager.Domain\\DTO\\Response\\ReportResponse.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\DTO\\Response\\ReportResponse.cs",
-              "RelativeToolTip": "TaskManager.Domain\\DTO\\Response\\ReportResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T12:13:12.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ITaskRepository.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "RelativeToolTip": "TaskManager.Infrastructure\\Interfaces\\ITaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T13:10:00.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Repositories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Repositories\\TaskRepository.cs",
-              "RelativeToolTip": "TaskManager.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T07:05:56.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IReportService.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Application\\Interfaces\\IReportService.cs",
-              "RelativeDocumentMoniker": "TaskManager.Application\\Interfaces\\IReportService.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Application\\Interfaces\\IReportService.cs",
-              "RelativeToolTip": "TaskManager.Application\\Interfaces\\IReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:55:00.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Application\\Implementations\\ReportService.cs",
-              "RelativeDocumentMoniker": "TaskManager.Application\\Implementations\\ReportService.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Application\\Implementations\\ReportService.cs",
-              "RelativeToolTip": "TaskManager.Application\\Implementations\\ReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:53:36.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Controllers\\ReportController.cs",
-              "RelativeDocumentMoniker": "TaskManager.API\\Controllers\\ReportController.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "TaskManager.API\\Controllers\\ReportController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:51:18.766Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskManager.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskManager.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T14:27:25.527Z",
               "EditorCaption": ""
             }
           ]
