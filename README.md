@@ -1,20 +1,85 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Configuração do Ambiente Local
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Visão Geral
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Este guia descreve os passos necessários para configurar e rodar a aplicação **Task Manager API** em seu ambiente local, dentro de um container docker.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+---
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Requisitos
+
+Certifique-se de que o ambiente de desenvolvimento possui os seguintes componentes instalados:
+
+2. **Docker Desktop** (para container com banco de dados local)
+   - [Download Docker](https://www.docker.com/products/docker-desktop/)
+
+---
+
+## Clonando o Repositório
+
+1. Clone o repositório do projeto para sua máquina local:
+
+   ```bash
+   git clone https://github.com/mitczuck/TaskManager
+   ```
+
+2. Acesse o diretório do projeto:
+
+   ```bash
+   cd TaskManager
+   ```
+
+---
+
+## Criando banco de dados local no Docker
+
+1. Com o Docker Desktop já instalado na máquina execute o seguinte comando no **powershell** prompt, em modo **administrador**:
+
+   ```bash
+	docker pull mcr.microsoft.com/mssql/server:2022-latest
+
+	docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Donothackme123!" -p 1433:1433 --name sql2 --hostname sql2 -d mcr.microsoft.com/mssql/server:2022-latest
+   ```
+
+2. Crie o banco de dados:
+
+   ```bash
+   docker exec -it sql2 /opt/mssql-tools18/bin/sqlcmd -S localhost -U SA -P "Donothackme123!" -C -d master -Q "CREATE DATABASE TaskManagerDB"
+   ```
+
+3. Executar migration para criar a estrutura do babco de dados:
+
+   ```bash   
+   dotnet tool update --global dotnet-ef   
+   
+   dotnet ef database update --startup-project src/TaskManager.API --project src/TaskManager.Infrastructure --connection "Server=localhost,1433;Database=TaskManagerDB;User=sa;Password=Donothackme123!;TrustServerCertificate=True"
+   ```
+
+4. Publicar a API em um container docker:
+
+   ```bash   
+   docker build -t task-manager:latest .
+   
+   docker run -d -p 4000:4000 task-manager:latest
+   ```
+
+5. Acessar a URL da API no localhost: 
+
+   ```bash   
+   http://localhost:4000/swagger/index.html
+   ```
+
+---
+
+## Refinamento (Questões para o PO) 
+
+1. Descrever
+
+---
+
+## Final (Melhorias)
+
+1. Descrever
+
+---
+
