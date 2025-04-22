@@ -5,6 +5,11 @@ using TaskManager.Infrastructure.Interfaces;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Text;
+using TaskManager.Core.DTO.Response;
+using TaskManager.Core.DTO.Report;
+using TaskManager.Core.Enums;
+using Azure.Identity;
+using System.Linq;
 
 namespace TaskManager.Infrastructure.Repositories
 {
@@ -88,8 +93,7 @@ namespace TaskManager.Infrastructure.Repositories
                     {
                         if (!property.OriginalValue.Equals(property.CurrentValue))
                         {
-                            changes.AppendLine($"{property.Metadata.Name}: " +
-                                             $"{property.OriginalValue} -> {property.CurrentValue}");
+                            changes.AppendLine($"{property.Metadata.Name}: " + $"{property.OriginalValue} -> {property.CurrentValue}");
                         }
                     }
                     sBuilder.AppendLine($":\n{changes}");
@@ -123,6 +127,39 @@ namespace TaskManager.Infrastructure.Repositories
             return GetTask(task.Id);
         }
 
+        public ReportResponse GetCompletedTasksPerUserReport(int userId)
+        {
+            if (userId <= 0)
+                throw new ArgumentException("UserId é obrigatório.");
+
+            if(!_context.Users.Any(u => u.Id == userId && u.Position == Position.Manager))
+                throw new ArgumentException("Para acessar esse relatório o usuário deve ter cargo de gerente.");
+
+            var dateThreshold = DateTime.UtcNow.AddDays(-30);
+
+            var report = _context.Tasks
+                .Where(t => t.Status == StatusTask.Done && t.DueDate >= dateThreshold)
+                .GroupBy(t => new { t.ResponsibleUserId, t.ResponsibleUser.UserName })
+                .Select(g => new CompletedTasksPerUser
+                {
+                    UserId = g.Key.ResponsibleUserId,
+                    UserName = g.Key.UserName,
+                    CountCompletedTasks = g.Count()
+                })
+                .Where(x => x.CountCompletedTasks > 0)
+                .ToList();
+
+            var response = new ReportResponse
+            {
+                Message = "Tarefas finalizadas nos últimos 30 dias",
+                StartDate = dateThreshold,
+                EndDate = DateTime.UtcNow,
+                UserStats = report
+            };
+
+            return response;
+        }
+
         public bool DeleteTask(int id)
         {
             var Task = _context.Tasks.Find(id);
@@ -141,5 +178,7 @@ namespace TaskManager.Infrastructure.Repositories
         {
             return _context.Tasks.Any(e => e.Id == id);
         }
+
+        
     }
 }

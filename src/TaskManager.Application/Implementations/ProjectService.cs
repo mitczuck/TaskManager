@@ -117,7 +117,7 @@ namespace TaskManager.Application.Implementations
             return projectUserResponse;
         }
 
-        public ProjectUserResponse DeletProjectUser(int projectId, int userId)
+        public ProjectUserResponse DeleteProjectUser(int projectId, int userId)
         {
             ProjectUserResponse projectUserResponse = new ProjectUserResponse();
 

@@ -59,10 +59,10 @@ namespace TaskManager.API.Controllers
             return _projectService.AddProjectUser(projectId, userId);
         }
 
-        [HttpDelete("DeletProjectUser")]
-        public ProjectUserResponse DeletProjectUser(int projectId, int userId)
+        [HttpDelete("DeleteProjectUser")]
+        public ProjectUserResponse DeleteProjectUser(int projectId, int userId)
         {
-            return _projectService.DeletProjectUser(projectId, userId);
+            return _projectService.DeleteProjectUser(projectId, userId);
         }
 
     }

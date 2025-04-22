@@ -13,6 +13,6 @@ namespace TaskManager.Application.Interfaces
         IEnumerable<Project> GetProjects(int userId);
         Project GetProject(int id);
         ProjectUserResponse AddProjectUser(int projectId, int userId);
-        ProjectUserResponse DeletProjectUser(int projectId, int userId);
+        ProjectUserResponse DeleteProjectUser(int projectId, int userId);
     }
 }
