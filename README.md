@@ -73,7 +73,19 @@ Certifique-se de que o ambiente de desenvolvimento possui os seguintes component
 
 ## Refinamento (Questões para o PO) 
 
-1. Descrever
+
+** 1. Quais perfis além de gerente um usuário pode ter? **
+
+O usuário tem sempre o mesmo papel cargo? Ou ele pode exercer papéis diferentes em projetos diferentes?
+
+** 2. Quais são os status possíveis de um tarefa? **
+
+Vamos trabalhar com Pendente, Finalizada, Em andamento, etc... Mais alguma ?
+
+** 3. Exclusão de um projeto de ser física ou lógica ? **
+
+É importante manter o histórico dos projetos? Quais status além de pendendo impedem a exclusão?
+
 
 ---
 

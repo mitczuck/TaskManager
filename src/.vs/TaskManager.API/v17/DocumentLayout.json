@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\GOLLOG\\TaskManager\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ED55EC9B-9C35-4991-851B-76B5FBC72460}|TaskManager.API.Tests\\TaskManager.API.Tests.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api.tests\\projectservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED55EC9B-9C35-4991-851B-76B5FBC72460}|TaskManager.API.Tests\\TaskManager.API.Tests.csproj|solutionrelative:taskmanager.api.tests\\projectservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF3E42C-6E8E-4972-8A63-A8D3BDAEE2CB}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.infrastructure\\migrations\\20250422053022_updateuserposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\migrations\\20250422053022_updateuserposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.infrastructure\\context\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D483E88A-E1B6-43CF-80CB-4A6043ECF2AB}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\context\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Domain.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Domain.csproj|c:\\gollog\\taskmanager\\src\\taskmanager.domain\\enums\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6F2D1F-F380-46F4-B377-F286839FD165}|TaskManager.Domain\\TaskManager.Domain.csproj|solutionrelative:taskmanager.domain\\enums\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "TaskManager.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "TaskManager.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T15:23:39.566Z",
+              "Title": "ProjectServiceTests.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API.Tests\\ProjectServiceTests.cs",
+              "RelativeDocumentMoniker": "TaskManager.API.Tests\\ProjectServiceTests.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API.Tests\\ProjectServiceTests.cs",
+              "RelativeToolTip": "TaskManager.API.Tests\\ProjectServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:57:02.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Program.cs",
-              "RelativeDocumentMoniker": "TaskManager.API\\Program.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.API\\Program.cs",
-              "RelativeToolTip": "TaskManager.API\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
+              "Title": "20250422053022_UpdateUserPosition.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "RelativeToolTip": "TaskManager.Infrastructure\\Migrations\\20250422053022_UpdateUserPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:56:29.208Z",
+              "WhenOpened": "2025-04-23T13:55:29.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\Enums\\Position.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Enums\\Position.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\Enums\\Position.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Enums\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:55:14.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SqlDbContext.cs",
-              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Context\\SqlDbContext.cs",
-              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Context\\SqlDbContext.cs",
-              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Infrastructure\\Context\\SqlDbContext.cs",
-              "RelativeToolTip": "TaskManager.Infrastructure\\Context\\SqlDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABoAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TaskManager.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\GOLLOG\\TaskManager\\src\\TaskManager.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TaskManager.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:52:56.382Z",
+              "WhenOpened": "2025-04-23T13:55:03.29Z",
               "EditorCaption": ""
             }
           ]
